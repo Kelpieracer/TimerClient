@@ -1,0 +1,5 @@
+
+DELETE  https://localhost:44357/topics/12
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQiLCJuYmYiOjE1OTgyMTUyNTUsImV4cCI6MTU5ODIxNjE1NSwiaWF0IjoxNTk4MjE1MjU1fQ.vQXe3HlzhVZCAcxwT_bRwAoB82Fe2AmpxMF4OSHiEac
+

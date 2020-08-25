@@ -1,0 +1,4 @@
+
+GET https://localhost:44357/projects/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQiLCJuYmYiOjE1OTgyNTU4MDMsImV4cCI6MTU5ODI1NjcwMywiaWF0IjoxNTk4MjU1ODAzfQ.glj8kI-OhvN77E-ARGvtXq3XJwuB2tpDRMDiPaQl67o

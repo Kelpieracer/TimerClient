@@ -1,0 +1,8 @@
+
+POST https://localhost:44357/projects
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYmYiOjE1OTgyOTk4NjQsImV4cCI6MTU5ODMwMDc2NCwiaWF0IjoxNTk4Mjk5ODY0fQ.gmtzy08YCte7vSaT6XuNwVNFtV6Bj-NtFjvKOWnkK8A
+
+{
+        "Name": "Test new project asf00"
+}

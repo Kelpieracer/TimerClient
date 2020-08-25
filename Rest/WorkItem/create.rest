@@ -1,0 +1,9 @@
+
+POST https://localhost:44357/workitems
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYmYiOjE1OTgzMDY2MTgsImV4cCI6MTU5ODMwNzUxOCwiaWF0IjoxNTk4MzA2NjE4fQ.hIVTXJYEGD-z04wnIoPMmJ-eELUaBdPGO4SoUUe4UGA
+
+{
+        "Name": "I am a new work item for my second project",
+        "ProjectId": 1
+}

@@ -1,0 +1,9 @@
+
+PUT https://localhost:44357/topics
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQiLCJuYmYiOjE1OTgyMTYyODIsImV4cCI6MTU5ODIxNzE4MiwiaWF0IjoxNTk4MjE2MjgyfQ.XsdVBkd2i-do24JkE2imdfNS4CCWZNsrIN6_HM6ysVg
+
+{
+        "Id": 14,
+        "Name": "Amazing innovations"
+}

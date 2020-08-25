@@ -1,0 +1,3 @@
+
+GET https://localhost:44357/account/4
+Content-Type: application/json

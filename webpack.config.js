@@ -1,4 +1,32 @@
 var HtmlWebpackPlugin = require("html-webpack-plugin");
+
+// const path = require("path");
+
+// module.exports = {
+//   mode: "none",
+//   entry: {
+//     app: path.join(__dirname, "src", "index.tsx"),
+//   },
+//   target: "web",
+//   resolve: {
+//     extensions: [".ts", ".tsx", ".js"],
+//   },
+//   module: {
+//     rules: [
+//       {
+//         test: /\.tsx?$/,
+//         use: "ts-loader",
+//         exclude: "/node_modules/",
+//       },
+//     ],
+//   },
+//   output: {
+//     filename: "[name].js",
+//     path: path.resolve(__dirname, "dist"),
+//   },
+// };
+//----------
+
 const path = require("path");
 
 module.exports = {
@@ -6,7 +34,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.tsx?$/,
         loader: "babel-loader",
       },
       {
@@ -21,7 +49,7 @@ module.exports = {
   },
   resolve: {
     mainFiles: ["index", "Index"],
-    extensions: [".js", ".jsx"],
+    extensions: [".js", ".ts", ".tsx"],
     alias: {
       "@": path.resolve(__dirname, "src/"),
     },
